@@ -8,23 +8,51 @@
       font-family: sans-serif;
       text-align: center;
       background-color: #f0f8ff;
-      padding: 50px;
+      padding: 40px;
     }
+
     h1 {
       font-size: 40px;
       color: #2c3e50;
     }
-    img {
-      margin-top: 30px;
-      max-width: 90%;
+
+    .destacado {
+      font-size: 28px;
+      font-weight: bold;
+      color: #e67e22;
+      margin: 30px 0;
+    }
+
+    .meme {
+      width: 250px;
       height: auto;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .meme-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>¡Mucha suerte Kyu con tu examen de Contemporáneo!</h1>
-  <p>💪🔥 Sabemos que lo harás increíble 🔥💪</p>
-  <img src="URL_DEL_MEME_1" alt="Meme motivador">
-  <img src="URL_DEL_MEME_2" alt="Otro meme">
+  <h1>¡Mucha suerte Kyu con tu examen de Géneros y Temas!</h1>
+
+  <div class="meme-grid">
+    <img class="meme" src="URL_DEL_MEME_1" alt="Meme 1">
+    <img class="meme" src="URL_DEL_MEME_2" alt="Meme 2">
+    <img class="meme" src="URL_DEL_MEME_3" alt="Meme 3">
+  </div>
+
+  <p class="destacado">🌟 Vas a reventarlo con estilo y cabeza, ¡a por todas Kyu! 🌟</p>
+
+  <div class="meme-grid">
+    <img class="meme" src="URL_DEL_MEME_4" alt="Meme 4">
+    <img class="meme" src="URL_DEL_MEME_5" alt="Meme 5">
+    <img class="meme" src="URL_DEL_MEME_6" alt="Meme 6">
+  </div>
 </body>
 </html>
